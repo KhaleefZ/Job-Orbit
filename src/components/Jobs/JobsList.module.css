@@ -1,0 +1,15 @@
+.jobCard {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.jobCard:hover {
+  border-color: var(--mantine-color-primary-4);
+  box-shadow: 0 8px 16px rgba(0, 128, 255, 0.15);
+  transform: translateY(-5px);
+}

@@ -1,0 +1,38 @@
+.layout {
+  background-image: url('https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.layout > :global(.mantine-AppShell-main) {
+    background-color: transparent !important;
+}
+
+.layout > :global(.mantine-AppShell-header) {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.layout > :global(.mantine-AppShell-navbar) {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(10px);
+    border-right: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.userButton {
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: background-color 0.15s ease;
+}
+
+.userButton:hover {
+  background-color: var(--mantine-color-gray-0);
+}
+
+[data-mantine-color-scheme='dark'] .userButton:hover {
+  background-color: var(--mantine-color-dark-6);
+}
