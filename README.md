@@ -188,5 +188,3 @@ This project is part of an academic assignment for Human Computer Interface and 
 For support, email your-email@example.com or open an issue in the repository.
 
 ---
-
-Made with ❤️ for Human Computer Interface and Interaction Lab - Cat 2 (Frontend)
